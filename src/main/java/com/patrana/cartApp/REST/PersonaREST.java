@@ -35,8 +35,8 @@ public class PersonaREST {
 
 
         try {
-
-            String base64="data:image/png;base64,"+
+            //"data:image/png;base64,"+
+            String base64=
                     Base64.getEncoder().encodeToString(
                             QRGenerator.getQRCodeImage(
                                 p.getCorreo(),
